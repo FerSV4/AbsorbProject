@@ -1,4 +1,7 @@
 .root {
+  position: absolute;
+  left: 0;
+  top: 0;
   width: min-content;
   height: min-content;
   justify-content: center;

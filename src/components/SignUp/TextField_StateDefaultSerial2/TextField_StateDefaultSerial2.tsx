@@ -21,7 +21,7 @@ interface Props {
     placeholder?: ReactNode;
   };
 }
-/* @figmaId 2557:4568 */
+/* @figmaId 2853:15850 */
 export const TextField_StateDefaultSerial2: FC<Props> = memo(function TextField_StateDefaultSerial2(props = {}) {
   return (
     <div className={`${resets.clapyResets} ${props.classes?.root || ''} ${props.className || ''} ${classes.root}`}>

@@ -1,5 +1,9 @@
 .root {
-  position: relative;
+  position: absolute;
+  left: -19.3609%;
+  right: 113.3459%;
+  top: -1429.6296%;
+  bottom: 1470.3704%;
   width: 16px;
   height: 16px;
   flex-direction: column;

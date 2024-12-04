@@ -1,9 +1,7 @@
 .root {
   position: absolute;
-  left: -7.4766%;
-  right: 84.1121%;
-  top: -27.6882%;
-  bottom: 116.9355%;
+  left: 0;
+  top: 0;
   width: min-content;
   height: min-content;
   justify-content: center;

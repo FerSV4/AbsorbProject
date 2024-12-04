@@ -7,6 +7,9 @@
   height: 100%;
 }
 .root {
+  position: absolute;
+  left: 360px;
+  top: 16px;
   width: min-content;
   height: min-content;
   flex-direction: column;

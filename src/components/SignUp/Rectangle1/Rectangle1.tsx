@@ -12,9 +12,6 @@ import { StateLayerIcon } from './StateLayerIcon.js';
 
 interface Props {
   className?: string;
-  classes?: {
-    line18?: string;
-  };
   swap?: {
     icon?: ReactNode;
   };
@@ -24,7 +21,6 @@ interface Props {
     settings?: boolean;
     headline?: boolean;
     searchBar?: boolean;
-    content?: boolean;
   };
 }
 /* @figmaId 2141:1627 */
@@ -67,12 +63,10 @@ export const Rectangle1: FC<Props> = memo(function Rectangle1(props = {}) {
         <div className={classes.searchBar}>
           <div className={classes.stateLayer3}>
             <div className={classes.leadingIcon}></div>
-            {!props.hide?.content && (
-              <div className={classes.content}>
-                <div className={classes.supportingText}>Buy instruments at competitive prices... </div>
-              </div>
-            )}
-            <div className={`${props.classes?.line18 || ''} ${classes.line18}`}></div>
+            <div className={classes.content}>
+              <div className={classes.supportingText}>Buy instruments at competitive prices... </div>
+            </div>
+            <div className={classes.line18}></div>
             <div className={classes.trailingElements}>
               <div className={classes._1stTrailingIcon}>
                 <div className={classes.container3}>

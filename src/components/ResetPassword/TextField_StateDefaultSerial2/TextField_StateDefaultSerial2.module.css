@@ -1,0 +1,50 @@
+.email.email {
+  width: 20px;
+  height: 20px;
+}
+.icon {
+  width: 100%;
+  height: 100%;
+}
+.root {
+  width: min-content;
+  height: min-content;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+.label {
+  color: #121212de;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.4px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.textField {
+  width: 328px;
+  height: 48px;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 8px 8px 16px;
+  outline: solid 1px #12121214;
+  outline-offset: -1px;
+  border-radius: 8px;
+  background-color: #fff;
+  overflow: hidden;
+}
+.placeholder {
+  color: #12121261;
+  font-size: 14px;
+  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.4px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}

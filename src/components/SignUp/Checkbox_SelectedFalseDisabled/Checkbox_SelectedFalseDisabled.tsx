@@ -6,8 +6,16 @@ import classes from './Checkbox_SelectedFalseDisabled.module.css';
 
 interface Props {
   className?: string;
+  classes?: {
+    root?: string;
+  };
 }
 /* @figmaId 2251:4067 */
 export const Checkbox_SelectedFalseDisabled: FC<Props> = memo(function Checkbox_SelectedFalseDisabled(props = {}) {
-  return <input className={`${resets.clapyResets} ${classes.root}`} type='checkbox'></input>;
+  return (
+    <input
+      className={`${resets.clapyResets} ${props.classes?.root || ''} ${props.className || ''} ${classes.root}`}
+      type='checkbox'
+    ></input>
+  );
 });
