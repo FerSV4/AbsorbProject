@@ -1,0 +1,47 @@
+.root {
+  position: absolute;
+  left: 0;
+  top: 208px;
+  width: 1440px;
+  height: 278px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.image3 {
+  position: absolute;
+  left: 1px;
+  top: 3px;
+  width: 1440px;
+  height: 274px;
+  background-image:/* webpackIgnore: true */ url('/assets/image3.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.rectangle15 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.absorbTermsPolicies {
+  color: #000;
+  font-size: 70px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.5px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
