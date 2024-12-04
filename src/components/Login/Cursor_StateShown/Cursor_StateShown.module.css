@@ -1,0 +1,15 @@
+.root {
+  position: relative;
+  width: 1.5px;
+  height: 18px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.rectangle2700 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #44a0fc;
+}
